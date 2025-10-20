@@ -39,3 +39,6 @@ def cupido_loss(pred, gt):
     L_union = union_loss(pred, gt)
     total_loss = α * L_direction + β * L_fragment + γ * L_union
     return total_loss
+
+## 🔓 Code Availability
+The source code and trained models will be released upon paper acceptance.
