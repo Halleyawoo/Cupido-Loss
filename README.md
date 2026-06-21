@@ -1,4 +1,4 @@
-# 🫁 Cupido Loss for Structure-Aware Airway and Vessel Segmentation
+# 🫁 Cupido Loss for Structure-Aware Pulmonary Airway and Artery Segmentation
 
 Official PyTorch implementation of **Cupido Loss**, introduced in our MICCAI Workshop submission.
 
@@ -6,8 +6,8 @@ Official PyTorch implementation of **Cupido Loss**, introduced in our MICCAI Wor
 
 ## 🧩 Overview
 
-Cupido Loss is a unified structure-aware loss function designed for vascular and airway segmentation tasks.  
-It integrates **Directional Consistency** and **Union Loss** components to ensure accurate, smooth, and continuous vessel predictions across multiple scales.
+Cupido Loss is a unified structure-aware loss function designed for pulmonary airway and artery segmentation.
+It integrates **Directional Consistency** and **Union Loss** components to ensure accurate, smooth, and structurally coherent tubular predictions across multiple scales.
 
 
 ---
@@ -18,7 +18,7 @@ It integrates **Directional Consistency** and **Union Loss** components to ensur
 Encourages alignment between the predicted and ground-truth gradient orientations, ensuring smooth directional transitions in curved and branching vessels.
 
 ### 2️⃣ Union Loss
-Balances global completeness and local geometric fidelity using skeleton- and distance-based priors to handle vessels of varying diameters.
+Enhances geometric consistency by combining skeleton- and distance-based priors for tubular structures with varying diameters.
 
 ---
 
