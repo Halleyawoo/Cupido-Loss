@@ -1,6 +1,6 @@
 # 🫁 Cupido Loss for Structure-Aware Airway and Vessel Segmentation
 
-Official PyTorch implementation of **Cupido Loss**, introduced in our MICCAI submission.
+Official PyTorch implementation of **Cupido Loss**, introduced in our MICCAI Workshop submission.
 
 ---
 
